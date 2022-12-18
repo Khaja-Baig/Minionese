@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banana talks</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Estonia&family=M+PLUS+1+Code&family=Montserrat&display=swap');
+        body{
+            font-size: larger;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .b{
+            font-family: 'Montserrat', sans-serif;  
+        }
+        textarea{
+            width: 60%;
+            display: block;
+            margin: auto;
+            height: 13vh;
+            border: 5px solid black;
+            text-align: center;
+        }
+        #btn-translate{
+            background-color: rgb(57, 154, 123);
+            margin-top: 1rem;
+            border-radius: 3rem;
+            padding: 1rem;
+        }
+        button{
+            margin: auto;
+        }
+        .letter{
+            padding: 1rem 0rem 0rem;
+        }
+        #output{
+            width: 90%;
+            background-color: white;
+            margin-left: auto;
+            margin-right: auto;
+            height: 16vh;
+            text-align: center;
+        }
+        .nav{
+            margin: 5rem;
+            text-align: center;
+            background-color: rgb(234, 227, 8);
+            padding: 1rem;
+            border-radius: 2rem;
+        }
+        placeholder{
+            text-align: center;
+        }
+        .footer{
+            margin: 10rem;
+            background-color: rgb(229, 125, 27);
+            border-radius: 4rem;
+        }
+    </style>
+</head>
+<body style="background-color: rgb(71, 47, 255);">
+    <nav class="nav">
+        <h1>Banana talk</h1>
+        <textarea id="txt-input" placeholder="put your sentence in english here and we will convert it to banana"></textarea>
+        <div id="translate">
+            <button id="btn-translate"><h2 class="b">Translate to banana</h2></button>
+            <div >Translation will come here 👇</div>
+        </div>
+        <div id="output"></div>
+    </nav>
+    <footer class="nav footer">
+        <h1>about</h1>
+        <p>Minions are cute, aren't they? And like them their language is also very funny but real. Yes, the Gibberish they speak is an actual language. <br> 
+            It is also called Banana language. <br>You can take help of this site to translate you English text into Minions language or Banana language.</p>
+    </footer>
+    <script src="app.js" type="text/javascript"></script>
+</body>
+</html> 
+
+ 
